@@ -31,7 +31,7 @@ namespace advancepins {
         DigitalPin.P16
     ];
 
-    //% block="digital write pin $pinNumber to $pinValue"
+    //% block="digital write Pin $pinNumber to $pinValue"
     //% pinValue.min=0 pinValue.max=1
     export function digitalPinOperation(pinNumber: number, pinValue: number) {
         pins.digitalWritePin(digitalPinList[pinNumber],pinValue);
