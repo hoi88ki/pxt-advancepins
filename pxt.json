@@ -1,0 +1,16 @@
+{
+    "name": "pxt-advancepins",
+    "version": "0.0.1",
+    "description": "Blocks to allow pins operation using numerical values of the pin",
+    "license": "MIT",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "main.ts"
+    ],
+    "testFiles": [
+    ],
+    "public": true
+}
