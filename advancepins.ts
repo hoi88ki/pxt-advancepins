@@ -31,9 +31,36 @@ namespace advancepins {
         DigitalPin.P16
     ];
 
+    let analogPinList = [
+        AnalogPin.P0,
+        AnalogPin.P1,
+        AnalogPin.P2,
+        AnalogPin.P3,
+        AnalogPin.P4,
+        AnalogPin.P5,
+        AnalogPin.P6,
+        AnalogPin.P7,
+        AnalogPin.P8,
+        AnalogPin.P9,
+        AnalogPin.P10,
+        AnalogPin.P11,
+        AnalogPin.P12,
+        AnalogPin.P13,
+        AnalogPin.P14,
+        AnalogPin.P15,
+        AnalogPin.P16
+    ];
+
     //% block="digital write Pin $pinNumber to $pinValue"
     //% pinValue.min=0 pinValue.max=1
     export function digitalPinOperation(pinNumber: number, pinValue: number) {
         pins.digitalWritePin(digitalPinList[pinNumber],pinValue);
     }
+
+    //% block="analog write Pin $pinNumber to $pinValue"
+    //% pinValue.min=0 pinValue.max=1023
+    export function analogPinOperation(pinNumber: number, pinValue: number) {
+        pins.analogWritePin(analogPinList[pinNumber],pinValue);
+    }
+    
 }
