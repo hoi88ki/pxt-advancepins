@@ -5,13 +5,13 @@
  * Developed by KK Yung
  * 
  */
-//% color="#AA278D"
-namespace AdvancedPins {
+//% weight=100 color=#AA278D icon="\uf21c" block="Pin Adavance"
+namespace advancepins {
     /**
     * Computes the famous Fibonacci number sequence!
     */
 
-    var digitalPinList = [
+    var digitalPinList = 
         DigitalPin.P0,
         DigitalPin.P1,
         DigitalPin.P2,
@@ -31,6 +31,7 @@ namespace AdvancedPins {
         DigitalPin.P16
     ];
 
+    //% blockId=advancepin_digital_op
     //% block="digital write pin $pinNumber to $pinValue"
     //% pinValue.min=0 pinValue.max=1
     export function digitalPinOperation(pinNumber: number, pinValue: number) {
