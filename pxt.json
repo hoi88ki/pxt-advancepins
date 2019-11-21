@@ -8,7 +8,7 @@
     },
     "files": [
         "README.md",
-        "main.ts"
+        "advancepins.ts"
     ],
     "testFiles": [
     ],
