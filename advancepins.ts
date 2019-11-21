@@ -5,7 +5,7 @@
  * Developed by KK Yung
  * 
  */
-//% weight=100 color=#AA278D icon="\uf21c" block="Pins Adavance"
+//% weight=100 color=#AA278D icon="\uf205" block="Pins Adavance"
 namespace advancepins {
     /**
     * Computes the famous Fibonacci number sequence!
@@ -62,5 +62,5 @@ namespace advancepins {
     export function analogPinOperation(pinNumber: number, pinValue: number) {
         pins.analogWritePin(analogPinList[pinNumber],pinValue);
     }
-    
+
 }
